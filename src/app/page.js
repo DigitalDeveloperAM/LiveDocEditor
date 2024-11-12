@@ -1,14 +1,14 @@
 "use client";
-
-import React from 'react'
+import TextEditor from '@/components/TextEditor';
+import React from 'react';
 
 
 function page() {
   return (
     <div>
-      Page
+      <TextEditor></TextEditor>
     </div>
   )
 }
 
-export default page
+export default page;
